@@ -3,13 +3,13 @@
 {
     "name": "Sale Commission Product Criteria",
     "summary": "Advanced commissions rules",
-    "version": "14.0.1.1.6",
+    "version": "15.0.1.0.0",
     "author": "Ilyas, Ooops404, Odoo Community Association (OCA)",
     "maintainers": ["ilyasProgrammer", "aleuffre", "renda-dev", "PicchiSeba"],
     "website": "https://github.com/OCA/commission",
     "category": "Sales Management",
     "license": "AGPL-3",
-    "depends": ["sale_commission", "web_domain_field"],
+    "depends": ["commission", "sale_commission", "web_domain_field"],
     "data": [
         "reports/report_settlement_template.xml",
         "views/views.xml",
